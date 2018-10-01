@@ -67,9 +67,9 @@ client.on("ready", () => {
 
   }, (100000))
   const snekfetch = require('snekfetch')
-  logger.verbose(`${client.user.username} Is up and ready to work`);
-  logger.verbose(`Connected as: ${client.user.tag}`)
-  logger.verbose(`Client ID: ${client.user.id}`)
+  logger.verbose(`${client.user.username} esta online`);
+  logger.verbose(`Conectado como: ${client.user.tag}`)
+  logger.verbose(`id:: ${client.user.id}`)
   logger.verbose(`====================================`)
 });
 
